@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    color: #173b32;
+}
+/* =========================
+   MENU
+========================= */
+header {
+    background-color: #00563f;
+    padding: 18px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+nav h1 {
+    color: white;
+    font-size: 28px;
+    white-space: nowrap;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ffd21c;
+}
+#pesquisa {
+    width: 210px;
+    padding: 11px 15px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+/* =========================
+   BANNER
+========================= */
+.hero {
+    height: 420px;
+    padding-left: 8%;
+    display: flex;
+    align-items: center;
+    color: white;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.15),
+            rgba(0, 0, 0, 0.15)
+        ),
+        url("https://images.unsplash.com/photo-1483729558449-99ef09a8c325");
+    background-size: cover;
+    background-position: center;
+}
+.hero-text {
+    max-width: 500px;
+}
+.hero h2 {
+    font-size: 60px;
+    line-height: 0.95;
+}
+.hero h2 span {
+    color: #ffd21c;
+}
+.hero p {
+    font-size: 20px;
+    margin: 25px 0;
+}
+.hero button {
+    padding: 15px 28px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffd21c;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero button:hover {
+    background-color: #ffb800;
+}
+/* =========================
+   REGIÕES
+========================= */
+.regioes {
+    padding: 45px 5%;
+    text-align: center;
+}
+.regioes h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.botoes-regioes {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.botoes-regioes button {
+    min-width: 180px;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: #0c9b3d;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.botoes-regioes button:hover {
+    transform: translateY(-4px);
+    opacity: 0.85;
+}
+/* =========================
+   PONTOS TURÍSTICOS
+========================= */
+.pontos {
+    padding: 30px 5% 70px;
+}
+.pontos > h2 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+/* =========================
+   CARDS
+========================= */
+.cards {
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-7px);
+}
+.card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+.card-conteudo {
+    padding: 18px;
+}
+.card h3 {
+    font-size: 23px;
+    margin: 10px 0;
+}
+.card p {
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+.localizacao {
+    color: #e53935;
+    font-weight: bold;
+}
+/* =========================
+   REGIÕES DOS CARDS
+========================= */
+.regiao {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.regiao.norte {
+    background-color: #159447;
+}
+.regiao.nordeste {
+    background-color: #f2a900;
+}
+.regiao.centro {
+    background-color: #1769aa;
+}
+.regiao.sudeste {
+    background-color: #ef6c00;
+}
+.regiao.sul {
+    background-color: #d71920;
+}
+/* =========================
+   BOTÃO DO MAPA
+========================= */
+/* BOTÃO DO MAPA */
+.card button:not(.botao-detalhes) {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 20px;
+    background-color: #65d51f;
+    color: #173b32;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card button:not(.botao-detalhes):hover {
+    background-color: #4fbd12;
+}
+.card button:hover {
+    background-color: #4fbd12;
+}
+/* =========================
+   SOBRE
+========================= */
+.sobre {
+    padding: 50px 20px;
+    background-color: #dff0b7;
+    text-align: center;
+}
+.sobre h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.sobre p {
+    font-size: 18px;
+}
+/* =========================
+   AVALIAÇÃO
+========================= */
+.avaliacao {
+    padding: 50px 20px;
+    background-color: #f2f5df;
+    text-align: center;
+}
+.avaliacao h2 {
+    color: #315c4c;
+    margin-bottom: 10px;
+}
+.avaliacao p {
+    color: #555;
+}
+.avaliacao form {
+    max-width: 600px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.avaliacao input,
+.avaliacao textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.avaliacao textarea {
+    height: 120px;
+    resize: none;
+}
+.avaliacao button {
+    padding: 14px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f5c542;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+.avaliacao button:hover {
+    background-color: #e0ad20;
+}
+/* =========================
+   RODAPÉ
+========================= */
+footer {
+    padding: 35px;
+    background-color: #00563f;
+    color: white;
+    text-align: center;
+}
+footer h2 {
+    margin-bottom: 15px;
+}
+footer p {
+    margin: 8px;
+}
+/* =========================
+   RESPONSIVIDADE
+========================= */
+@media (max-width: 1000px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #pesquisa {
+        width: 100%;
+    }
+    .hero {
+        padding: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    .hero h2 {
+        font-size: 42px;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    .botoes-regioes button {
+        width: 100%;
+    }
+}
+/* =========================
+   DESCRIÇÃO DOS CARDS
+========================= */
+.descricao-card {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* =========================
+   BOTÃO VER DETALHES
+========================= */
+.botao-detalhes {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 20px;
+    background-color: #020f58;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.botao-detalhes:hover {
+    background-color: #0c9b3d;
+}
+
+/* =========================
+   JANELA MODAL
+========================= */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.modal-conteudo {
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 15px;
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-conteudo h2 {
+    color: #00563f;
+    margin-bottom: 15px;
+}
+
+.modal-conteudo p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.fechar-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+.titulo-com-linhas {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #173b32;
+    font-size: 28px;
+    margin: 30px 0;
+}
+
+.titulo-com-linhas::before,
+.titulo-com-linhas::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: #173b32;
+    margin: 0 15px;
+}
+/* MENU ARREDONDADO */
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    background-color: #008b45;
+    border-radius: 30px;
+}
+
+/* LINKS DO MENU */
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+nav ul li a:hover {
+    background-color: #005c3b;
+    transform: translateY(-2px);
+}
