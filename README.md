@@ -36,11 +36,11 @@ Dê um duplo clique no arquivo index.html ou abra-o diretamente pelo seu navegad
 **-- ESTRUTURA DOS ARQUIVOS --**
 
 rota-brasil/
-│
-├── index.html: Estrutura principal da aplicação (Menu, Seções, Cards, Modal e Formuário)
-├── style.css: Estilização completa do layout, regras de responsividade e animações
-├── script.js: Regras de negócio, busca, filtros de região, integração com mapas e manipulação do modal
-└── README.md: Documentação oficial do projeto
+
+ index.html: Estrutura principal da aplicação (Menu, Seções, Cards, Modal e Formuário)
+ style.css: Estilização completa do layout, regras de responsividade e animações
+ script.js: Regras de negócio, busca, filtros de região, integração com mapas e manipulação do modal
+ README.md: Documentação oficial do projeto
 
 
 **-- FUNCIONALIDADES IMPLEMENTADAS --**
@@ -81,7 +81,9 @@ URL do projeto online: https://rota-brasil.vercel.app (substitua pelo link real 
 
 **-- IDENTIFICAÇÃO DOS INTEGRANTES --**
 
-Projeto desenvolvido para a disciplina de Desenvolvimento Web conforme orientações:
+Projeto desenvolvido para a disciplina de Programação WEB 1;
+
+Integrantes:
 
 Fabiana Lima - Matrícula: 20260008017
 
