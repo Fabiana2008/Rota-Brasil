@@ -45,7 +45,7 @@ function mostrarTodos() {
 }
 
 
-// Abre a localização do ponto turístico no Google Maps
+// Essa parte abre a localização do ponto turístico no Google Maps
 function abrirMapa(local) {
 
     const endereco =
@@ -60,7 +60,7 @@ function abrirMapa(local) {
 }
 
 
-// Pesquisa pelo nome do destino
+// Tipo de pesquisa pelo nome do destino
 function pesquisarDestino() {
 
     const pesquisa =
@@ -100,6 +100,7 @@ document.getElementById("formAvaliacao").addEventListener("submit", function(eve
 
     document.getElementById("formAvaliacao").reset();
 });
+
 // Abre a janela com os detalhes do destino
 function abrirDetalhes(botao) {
 

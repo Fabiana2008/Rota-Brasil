@@ -86,7 +86,6 @@ URL do projeto online: https://rota-brasil.vercel.app (substitua pelo link real 
 Projeto desenvolvido para a disciplina de Programação WEB 1;
 
 Integrantes:
-
 Fabiana Lima - Matrícula: 20260008017
 
 Hranna Vitória Francisco da Silva - Matrícula: 20260035490
