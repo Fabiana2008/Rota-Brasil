@@ -37,11 +37,13 @@ Dê um duplo clique no arquivo index.html ou abra-o diretamente pelo seu navegad
 
 rota-brasil/
 
- index.html: Estrutura principal da aplicação (Menu, Seções, Cards, Modal e Formuário)
- style.css: Estilização completa do layout, regras de responsividade e animações
- script.js: Regras de negócio, busca, filtros de região, integração com mapas e manipulação do modal
- README.md: Documentação oficial do projeto
+index.html: Estrutura principal da aplicação (Menu, Seções, Cards, Modal e Formuário)
 
+style.css: Estilização completa do layout, regras de responsividade e animações
+
+script.js: Regras de negócio, busca, filtros de região, integração com mapas e manipulação do modal
+
+README.md: Documentação oficial do projeto
 
 **-- FUNCIONALIDADES IMPLEMENTADAS --**
 
