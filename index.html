@@ -27,7 +27,7 @@
                 <li><a href="#contato"> Contato</a></li>
             </ul>
 
-            <input type="text" id="pesquisa" placeholder="Pesquisar destino..."onkeyup="pesquisarDestino()">
+            <input type="text" id="pesquisa" placeholder="Pesquisar destino..." onkeyup="pesquisarDestino()">
 
         </nav>
     </header>
@@ -56,17 +56,14 @@
     </section>
 
 
- <!-- REGIÕES -->
-<section id="regioes">
+    <!-- REGIÕES -->
+    <section id="regioes">
 
     <h2 class="titulo-com-linhas">
         <span>Regiões do Brasil</span>
     </h2>
-
-    <!-- botões de regiões -->
-
-</section>
     
+        <!-- botões de regiões -->
 
         <div class="botoes-regioes">
 
@@ -90,7 +87,7 @@
                  Sul
             </button>
 
-            <button onclick="mostrarTodos()">
+            <button onclick="mostrarTodos('Todos')">
                  Todos
             </button>
 
@@ -105,7 +102,6 @@
         <h2>📸 Pontos Turísticos por Região</h2>
 
         <div class="cards">
-
 
             <!-- NORTE -->
 
@@ -817,25 +813,25 @@
                 </div>
 
             </div>
-
-
-    </section>
     
-<div id="modalDetalhes" class="modal">
-    <div class="modal-conteudo">
-        <button class="fechar-modal" onclick="fecharDetalhes()">&times;</button>
+        <div id="modalDetalhes" class="modal">
+            <div class="modal-conteudo">
+                <button class="fechar-modal" onclick="fecharDetalhes()">&times;</button>
+                <h2 id="modalTitulo"></h2>
+                <p id="modalLocalizacao"></p>
+                <p id="modalDescricao"></p>
+            </div>
+        </div>
 
-        <h2 id="modalTitulo"></h2>
-        <p id="modalLocalizacao"></p>
-        <p id="modalDescricao"></p>
     </div>
-</div>
+    </section>
 
     <!-- SOBRE -->
 
     <section id="sobre" class="sobre">
-        <h2 class="titulo-com-linhas"</h2>
+        <h2 class="titulo-com-linhas">
         <span>Sobre o Rota Brasil</span>
+        </h2>
         <p>
             O Rota Brasil foi criado para facilitar o processo de viagem de vocês. Nesse site voces acessam as melhores informações dos pontos turisticos mais famosos de todas as regiões do brasil. Descubra novas experiências e registre os melhores momentos!
         </p>
