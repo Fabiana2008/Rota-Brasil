@@ -122,9 +122,7 @@ nav a:hover {
 .hero button:hover {
     background-color: #ffb800;
 }
-/* =========================
-   REGIÕES
-========================= */
+/* REGIÕES */
 .regioes {
     padding: 45px 5%;
     text-align: center;
@@ -157,9 +155,7 @@ nav a:hover {
     transform: translateY(-4px);
     opacity: 0.85;
 }
-/* =========================
-   PONTOS TURÍSTICOS
-========================= */
+/* PONTOS TURÍSTICOS */
 .pontos {
     padding: 30px 5% 70px;
 }
@@ -168,9 +164,7 @@ nav a:hover {
     font-size: 38px;
     margin-bottom: 40px;
 }
-/* =========================
-   CARDS
-========================= */
+/* CARDS */
 .cards {
     max-width: 1300px;
     margin: auto;
@@ -208,9 +202,7 @@ nav a:hover {
     color: #e53935;
     font-weight: bold;
 }
-/* =========================
-   REGIÕES DOS CARDS
-========================= */
+/* REGIÕES DOS CARDS */
 .regiao {
     display: inline-block;
     padding: 7px 12px;
@@ -234,9 +226,6 @@ nav a:hover {
 .regiao.sul {
     background-color: #d71920;
 }
-/* =========================
-   BOTÃO DO MAPA
-========================= */
 /* BOTÃO DO MAPA */
 .card button:not(.botao-detalhes) {
     width: 100%;
@@ -255,9 +244,7 @@ nav a:hover {
 .card button:hover {
     background-color: #4fbd12;
 }
-/* =========================
-   SOBRE
-========================= */
+/* SOBRE */
 .sobre {
     padding: 50px 20px;
     background-color: #dff0b7;
@@ -270,9 +257,7 @@ nav a:hover {
 .sobre p {
     font-size: 18px;
 }
-/* =========================
-   AVALIAÇÃO
-========================= */
+/* AVALIAÇÃO */
 .avaliacao {
     padding: 50px 20px;
     background-color: #f2f5df;
@@ -315,9 +300,7 @@ nav a:hover {
 .avaliacao button:hover {
     background-color: #e0ad20;
 }
-/* =========================
-   RODAPÉ
-========================= */
+/* RODAPÉ */
 footer {
     padding: 35px;
     background-color: #00563f;
@@ -330,9 +313,7 @@ footer h2 {
 footer p {
     margin: 8px;
 }
-/* =========================
-   RESPONSIVIDADE
-========================= */
+/* RESPONSIVIDADE */
 @media (max-width: 1000px) {
     nav {
         flex-wrap: wrap;
@@ -365,9 +346,7 @@ footer p {
         width: 100%;
     }
 }
-/* =========================
-   DESCRIÇÃO DOS CARDS
-========================= */
+/* DESCRIÇÃO DOS CARDS */
 .descricao-card {
     display: -webkit-box;
     -webkit-line-clamp: 4;
@@ -375,9 +354,7 @@ footer p {
     overflow: hidden;
 }
 
-/* =========================
-   BOTÃO VER DETALHES
-========================= */
+/* BOTÃO VER DETALHES */
 .botao-detalhes {
     width: 100%;
     padding: 11px;
@@ -394,9 +371,7 @@ footer p {
     background-color: #0c9b3d;
 }
 
-/* =========================
-   JANELA MODAL
-========================= */
+/* JANELA MODAL */
 .modal {
     display: none;
     position: fixed;
