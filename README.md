@@ -1,14 +1,14 @@
-**-- NOME DO PROJETO --**
+**NOME DO PROJETO**
 
 Rota Brasil
 
-**-- DESCRIÇÃO E OBJETIVO --**
+**DESCRIÇÃO E OBJETIVO**
 
 O Rota Brasil é um guia turístico web desenvolvido para apresentar os principais pontos turísticos de todas as cinco regiões do Brasil (Norte, Nordeste, Centro-Oeste, Sudeste e Sul).
 
 O principal objetivo da plataforma é facilitar a pesquisa de viagens, mostrando as maravilhas que há no território brasileiro, além de permitir que os usuários explorem pontos turísticos famosos, visualizem a localização exata de cada destino com a integração de mapas interativos, filtrem os locais por região, busquem por destinos específicos e enviem feedbacks de avaliação do site.
 
-**-- FERRAMENTAS UTILIZADAS --**
+**FERRAMENTAS UTILIZADAS**
 
 HTML5: Estruturação semântica do conteúdo web.
 
@@ -18,7 +18,7 @@ JavaScript: Lógica de filtragem, mecanismo de pesquisa em tempo real, manipula�
 
 Google Maps: Integração com mapas externos para exibição das rotas dos pontos turísticos.
 
-**-- INSTRUÇÕES PARA EXECUÇÃO LOCAL --**
+**INSTRUÇÕES PARA EXECUÇÃO LOCAL**
 
 Não é necessário instalar dependências ou servidores de backend para rodar a aplicação localmente.
 
@@ -33,7 +33,7 @@ Abra o diretório extraído onde estão os arquivos index.html, style.css e scri
 Executar no navegador:
 Dê um duplo clique no arquivo index.html ou abra-o diretamente pelo seu navegador preferido (Chrome, Firefox, Edge, Safari, etc.).
 
-**-- ESTRUTURA DOS ARQUIVOS --**
+**ESTRUTURA DOS ARQUIVOS**
 
 rota-brasil/
 
@@ -45,7 +45,7 @@ script.js: Regras de negócio, busca, filtros de região, integração com mapas
 
 README.md: Documentação oficial do projeto
 
-**-- FUNCIONALIDADES IMPLEMENTADAS --**
+**FUNCIONALIDADES IMPLEMENTADAS**
 
 Navegação Interativa e Suave: Menu fixo com rolagem tanquila para facilitar o acesso às seções.
 
@@ -61,7 +61,7 @@ Formulário de avaliação: Seção para o usuário enviar feedback sobre a expe
 
 Design responsivo: Adaptação de layout para dispositivos móveis, tablets e computadores desktop.
 
-**-- FERRAMENTAS UTILIZADAS NA VALIDAÇÃO --**
+**FERRAMENTAS UTILIZADAS NA VALIDAÇÃO**
 
 W3C HTML Validator: Validação de sintaxe e semântica do código HTML5.
 
@@ -69,7 +69,7 @@ W3C CSS Validator: Validação de conformidade das regras de estilos CSS3.
 
 Lighthouse: Análise de acessibilidade, SEO e boas práticas web.
 
-**-- MELHORIAS DE DESEMPENHO REALIZADAS --**
+**MELHORIAS DE DESEMPENHO REALIZADAS**
 
 Carregamento do Script (defer): Inclusão do atributo defer na tag script no arquivo HTML, permitindo o carregamento concorrente dos scripts sem bloquear a renderização inicial da página.
 
@@ -77,11 +77,11 @@ Otimização de Renderização de Layout: Uso de display: grid e display: flex p
 
 Redução do Tempo de Resposta da Busca: Manipulação otimizada do DOM durante a busca e filtragem dos cards ocultando/exibindo apenas os nós necessários.
 
-**-- ENDEREÇO DO SITE PUBLICADO --**
+**ENDEREÇO DO SITE PUBLICADO**
 
 URL do projeto online: https://rota-brasil.vercel.app (substitua pelo link real da sua publicação)
 
-**-- IDENTIFICAÇÃO DOS INTEGRANTES --**
+**IDENTIFICAÇÃO DOS INTEGRANTES**
 
 Projeto desenvolvido para a disciplina de Programação WEB 1;
 
