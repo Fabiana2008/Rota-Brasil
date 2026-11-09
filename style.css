@@ -98,10 +98,6 @@ nav a:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-.hero h2 span {
-    color: #ffd21c;
-}
-
 .hero p {
     font-size: 20px;
     line-height: 1.5;
