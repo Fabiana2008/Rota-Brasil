@@ -79,7 +79,7 @@ Redução do Tempo de Resposta da Busca: Manipulação otimizada do DOM durante 
 
 **ENDEREÇO DO SITE PUBLICADO**
 
-URL do projeto online: https://rota-brasil.vercel.app (substitua pelo link real da sua publicação)
+URL do projeto online: fabiana2008.github.io/Rota-Brasil/
 
 **IDENTIFICAÇÃO DOS INTEGRANTES**
 
